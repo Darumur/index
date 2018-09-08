@@ -1,0 +1,144 @@
+
+body{
+	max-width: 1604px;
+}
+.menu{
+	display: flex;
+	width: 500px;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.menu-item {
+   color: #ffffff;
+   font-size: 13px;
+   text-transform: uppercase;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+.background-image{
+	background-image: url(../images/background.jpg);
+	height: 742px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+    text-transform: uppercase;
+    margin: 500px 0 0 30px;
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+    margin: 5px 0 0 30px;
+}
+
+.main-page{
+	background: #a2ca28;
+
+}
+
+.menu-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.info{
+	display: flex;
+    justify-content: space-around;
+
+
+}
+.subinfo{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 65px 0px;
+}
+
+.subinfo p {
+	color: #ffffff;
+    font-size: 13.99px;
+    line-height: 1.715;
+    margin: 0 0 20px 0;
+
+
+}
+.subinfo h2 {
+	color: #ffffff;
+    font-size: 24.04px;
+
+}
+.subinfo li {
+    width: 264px;
+    height: 280px;
+margin: 15px 30px 15px 0px;
+   position: relative;
+    }
+
+.link-sub{
+	color: #ffffff;
+	text-decoration: none;
+   bottom: 0;
+   position: absolute;
+
+}
+
+.section {
+	display: flex;
+    margin: 0px 93px;
+	background: #ffffff; 
+}
+
+.section h2 {
+	font-size: 35px;
+	color: rgb( 162, 202, 40 ); 
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+
+
+}
+.section h3 {
+	font-size: 14px;
+	color: #fd634e;
+	text-transform: uppercase;
+    line-height: 1.571;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.section p {
+	font-size: 14px;
+	color: rgb( 101, 110, 116 );
+    line-height: 1.800;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.section-link{
+	color: #a2ca28;
+	margin: 10px 135px;
+}
+.icon5 {
+	width: 20px;
+	height: 20px;
+   margin: 13px 167px;
+}
+
+.sectionImg{
+
+}
+.text-section{
+	width: 356px;
+}
+
