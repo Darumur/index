@@ -1,0 +1,154 @@
+
+.menu{
+	display: flex;
+	width: 500px;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.menu-item {
+	color: #ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+.background-image{
+	background-image: url(../images/background.jpg);
+	height: 742px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 500px 0 0 30px;
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 5px 0 0 30px;
+}
+
+.main-page{
+	background: #a2ca28;
+}
+
+.menu-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.info{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.subinfo{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 65px 0px;
+}
+
+.subinfo-text {
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 1;
+	margin: 0 0 20px 0;
+
+
+}
+.subinfo-h2 {
+	color: #ffffff;
+	font-size: 24px;
+
+}
+.subinfo-li {
+	width: 270px;
+	height: 280px;
+	margin: 15px 30px 15px 0px;
+	position: relative;
+}
+
+.link-sub{
+	color: #ffffff;
+	text-decoration: none;
+	bottom: 0;
+	position: absolute;
+
+}
+
+.section {
+	display: flex;
+	width: 1150px;
+	margin: 0px auto;
+	background: #ffffff; 
+}
+
+.title-h2 {
+	font-size: 35px;
+	color: rgb( 162, 202, 40 ); 
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.5;
+
+
+}
+.title-h3 {
+	font-size: 14px;
+	color: #fd634e;
+	text-transform: uppercase;
+	line-height: 1;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+}
+
+.text {
+	font-size: 14px;
+	color: rgb( 101, 110, 116 );
+	line-height: 2;
+	text-align: center;
+	margin: 0px 50px;
+}
+
+.section-link{
+	color: #a2ca28;
+	margin: 10px 135px;
+}
+.icon5 {
+	width: 20px;
+	height: 20px;
+	margin: 13px 167px;
+}
+
+.icon1{
+    margin: 8px 0px;
+}
+.icon2{
+    margin: 6px 0px;
+}
+.icon3{
+    margin: 10px 0px;
+
+}
+.icon4{
+	margin: 5px 0px;
+
+}
+
+.text-section{
+	width: 356px;
+}
+
