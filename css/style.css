@@ -10,9 +10,9 @@ body{
 }
 
 .menu-item {
-   color: #ffffff;
-   font-size: 13px;
-   text-transform: uppercase;
+	color: #ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
 }
 
 .header{
@@ -31,15 +31,15 @@ body{
 .title{
 	color: #ffffff;
 	font-size: 40px;
-    text-transform: uppercase;
-    margin: 500px 0 0 30px;
+	text-transform: uppercase;
+	margin: 500px 0 0 30px;
 }
 
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
 	text-transform: uppercase;
-    margin: 5px 0 0 30px;
+	margin: 5px 0 0 30px;
 }
 
 .main-page{
@@ -54,7 +54,7 @@ body{
 
 .info{
 	display: flex;
-    justify-content: space-around;
+	justify-content: space-around;
 
 
 }
@@ -65,64 +65,64 @@ body{
 	margin: 65px 0px;
 }
 
-.subinfo p {
+.subinfo-text {
 	color: #ffffff;
-    font-size: 13.99px;
-    line-height: 1.715;
-    margin: 0 0 20px 0;
+	font-size: 13px;
+	line-height: 1;
+	margin: 0 0 20px 0;
 
 
 }
-.subinfo h2 {
+.subinfo-h2 {
 	color: #ffffff;
-    font-size: 24.04px;
+	font-size: 24px;
 
 }
-.subinfo li {
-    width: 264px;
-    height: 280px;
-margin: 15px 30px 15px 0px;
-   position: relative;
-    }
+.subinfo-li {
+	width: 264px;
+	height: 280px;
+	margin: 15px 30px 15px 0px;
+	position: relative;
+}
 
 .link-sub{
 	color: #ffffff;
 	text-decoration: none;
-   bottom: 0;
-   position: absolute;
+	bottom: 0;
+	position: absolute;
 
 }
 
 .section {
 	display: flex;
-    margin: 0px 93px;
+	margin: 0px auto;
 	background: #ffffff; 
 }
 
-.section h2 {
+.title-h2 {
 	font-size: 35px;
 	color: rgb( 162, 202, 40 ); 
-    text-align: center;
-    margin: 0px;
-    text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+	text-transform: uppercase;
 
 
 }
-.section h3 {
+.title-h3 {
 	font-size: 14px;
 	color: #fd634e;
 	text-transform: uppercase;
-    line-height: 1.571;
-    text-align: center;
-    margin: 50px 0px 0px 0px;
+	line-height: 1.571;
+	text-align: center;
+	margin: 50px 0px 0px 0px;
 }
 
-.section p {
+.text {
 	font-size: 14px;
 	color: rgb( 101, 110, 116 );
-    line-height: 1.800;
-    text-align: center;
-    margin: 0px 50px;
+	line-height: 1.800;
+	text-align: center;
+	margin: 0px 50px;
 }
 
 .section-link{
@@ -132,12 +132,9 @@ margin: 15px 30px 15px 0px;
 .icon5 {
 	width: 20px;
 	height: 20px;
-   margin: 13px 167px;
+	margin: 13px 167px;
 }
 
-.sectionImg{
-
-}
 .text-section{
 	width: 356px;
 }
