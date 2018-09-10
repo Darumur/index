@@ -1,7 +1,4 @@
 
-body{
-	max-width: 1604px;
-}
 .menu{
 	display: flex;
 	width: 500px;
@@ -25,7 +22,7 @@ body{
 	background-image: url(../images/background.jpg);
 	height: 742px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 .title{
@@ -44,7 +41,6 @@ body{
 
 .main-page{
 	background: #a2ca28;
-
 }
 
 .menu-link{
@@ -79,7 +75,7 @@ body{
 
 }
 .subinfo-li {
-	width: 264px;
+	width: 270px;
 	height: 280px;
 	margin: 15px 30px 15px 0px;
 	position: relative;
@@ -95,6 +91,7 @@ body{
 
 .section {
 	display: flex;
+	width: 1150px;
 	margin: 0px auto;
 	background: #ffffff; 
 }
@@ -103,8 +100,9 @@ body{
 	font-size: 35px;
 	color: rgb( 162, 202, 40 ); 
 	text-align: center;
-	margin: 0px;
+	margin: 0;
 	text-transform: uppercase;
+	line-height: 1.5;
 
 
 }
@@ -112,7 +110,7 @@ body{
 	font-size: 14px;
 	color: #fd634e;
 	text-transform: uppercase;
-	line-height: 1.571;
+	line-height: 1;
 	text-align: center;
 	margin: 50px 0px 0px 0px;
 }
@@ -120,7 +118,7 @@ body{
 .text {
 	font-size: 14px;
 	color: rgb( 101, 110, 116 );
-	line-height: 1.800;
+	line-height: 2;
 	text-align: center;
 	margin: 0px 50px;
 }
@@ -133,6 +131,21 @@ body{
 	width: 20px;
 	height: 20px;
 	margin: 13px 167px;
+}
+
+.icon1{
+    margin: 8px 0px;
+}
+.icon2{
+    margin: 6px 0px;
+}
+.icon3{
+    margin: 10px 0px;
+
+}
+.icon4{
+	margin: 5px 0px;
+
 }
 
 .text-section{
