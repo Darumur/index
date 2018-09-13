@@ -51,9 +51,8 @@
 .info{
 	display: flex;
 	justify-content: space-around;
-
-
 }
+
 .subinfo{
 	display: flex;
 	justify-content: space-between;
@@ -66,14 +65,13 @@
 	font-size: 13px;
 	line-height: 1;
 	margin: 0 0 20px 0;
-
-
 }
+
 .subinfo-h2 {
 	color: #ffffff;
 	font-size: 24px;
-
 }
+
 .subinfo-li {
 	width: 270px;
 	height: 280px;
@@ -86,7 +84,6 @@
 	text-decoration: none;
 	bottom: 0;
 	position: absolute;
-
 }
 
 .section {
@@ -103,9 +100,8 @@
 	margin: 0;
 	text-transform: uppercase;
 	line-height: 1.5;
-
-
 }
+
 .title-h3 {
 	font-size: 14px;
 	color: #fd634e;
@@ -127,12 +123,12 @@
 	color: #a2ca28;
 	margin: 10px 135px;
 }
+
 .icon5 {
 	width: 20px;
 	height: 20px;
 	margin: 13px 167px;
 }
-
 .icon1{
     margin: 8px 0px;
 }
@@ -141,11 +137,9 @@
 }
 .icon3{
     margin: 10px 0px;
-
 }
 .icon4{
 	margin: 5px 0px;
-
 }
 
 .text-section{
