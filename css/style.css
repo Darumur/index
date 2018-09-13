@@ -1,4 +1,7 @@
 
+.body{
+	min-width: 1000px;
+}
 .menu{
 	display: flex;
 	width: 500px;
@@ -21,7 +24,8 @@
 
 .background-image{
 	background-image: url(../images/background.jpg);
-	height: 742px;
+	height: 850px;
+	min-width: 1000px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -42,6 +46,7 @@
 
 .main-page{
 	background: #a2ca28;
+	min-width: 1000px;
 }
 
 .menu-link{
@@ -51,14 +56,16 @@
 
 .info{
 	display: flex;
-	justify-content: space-around;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 50px 0;
 }
 
 .subinfo{
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	margin: 65px 0px;
+	margin: 0 auto;
 }
 
 .subinfo-text {
@@ -91,7 +98,6 @@
 	display: flex;
 	width: 1150px;
 	margin: 0px auto;
-	background: #ffffff; 
 }
 
 .title-h2 {
@@ -125,11 +131,19 @@
 	margin: 10px 135px;
 }
 
+.section2{
+	display: flex;
+	min-width: 1000px;
+	justify-content: space-between;
+
+}
+
 .icon5 {
 	width: 20px;
 	height: 20px;
 	margin: 13px 167px;
 }
+
 .icon1{
 	margin: 8px 0px;
 }
@@ -144,6 +158,7 @@
 }
 
 .text-section{
-	width: 356px;
+    background: #ffffff; 
+
 }
 
