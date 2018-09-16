@@ -263,31 +263,31 @@
 }
 .back{
 	border: 0px solid gray;
-    border-radius: 50%;
-    background-color: rgb( 46, 49, 146 );
-    width: 45px;
-    height: 45px;
+	border-radius: 50%;
+	background-color: rgb( 46, 49, 146 );
+	width: 45px;
+	height: 45px;
 }
 .back2{
 	border: 0px solid gray;
-    border-radius: 50%;
-    background-color: rgb( 0, 174, 239 );
-    width: 45px;
-    height: 45px;
+	border-radius: 50%;
+	background-color: rgb( 0, 174, 239 );
+	width: 45px;
+	height: 45px;
 }
 .back3{
 	border: 0px solid gray;
-    border-radius: 50%;
-    background-color: rgb( 237, 49, 35 );
-    width: 45px;
-    height: 45px;
+	border-radius: 50%;
+	background-color: rgb( 237, 49, 35 );
+	width: 45px;
+	height: 45px;
 }
 .back4{
 	border: 0px solid gray;
-    border-radius: 50%;
-    background-color: rgb( 23, 26, 143 );
-    width: 45px;
-    height: 45px;
+	border-radius: 50%;
+	background-color: rgb( 23, 26, 143 );
+	width: 45px;
+	height: 45px;
 }
 .into-back{
 	position: relative;
