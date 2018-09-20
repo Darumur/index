@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <title>Fitness</title>
   <meta name="keywords" content="Fitness">
+  <link rel="stylesheet" href="css/eric-meyer-reset.min_.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="/script.js"></script>
 </head>
@@ -91,20 +93,32 @@
       </ul>
     </div>
     
-    <div class="section-2">
-    <section class="section">
-      <div class="text-section">
-        <h3 class="title-h3">It's all about</h3>
-        <h2 class="title-h2">Fitness first</h2>
-        <img src="images/icon5.svg" class="icon5">
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-        <a href="" class="section-link">Read more</a>
-      </div>
-      <img src="images/img1.jpg" width="794px" height="394" class="sectionImg">
-    </section>
+      <section>
+       <div class="section">
+        <div class="text-section">
+          <h3 class="title-h3">It's all about</h3>
+          <h2 class="title-h2">Fitness first</h2>
+          <img src="images/icon5.svg" class="icon5">
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          <a href="" class="section-link">Read more</a>
+        </div>
+        <div class="hover">
+          <div class="hover-text">
+            <h2 class="title-h2">Fitness first</h2>
+            <h3 class="title-h3" style="margin: 0;">It's all about</h3>
+          </div>
+          <img src="images/img1.jpg" width="794px" height="394" class="sectionImg">
+        </div>
+      </section>
 
-    <section class="section">
-      <img src="images/img2.jpg" width="794px" height="394" class="sectionImg">
+      <section class="section">
+       <div class="hover">
+        <div class="hover-text">
+          <h3 class="title-h3" style="margin: 0;">Love your</h3>
+          <h2 class="title-h2">Your body</h2>
+        </div>
+        <img src="images/img2.jpg" width="794px" height="394" class="sectionImg">
+      </div>
       <div class="text-section">
         <h3 class="title-h3">Love your</h3>
         <h2 class="title-h2">Your body</h2>
@@ -112,41 +126,47 @@
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
         <a href="" class="section-link">Read more</a>
       </div>
+     </div>
     </section>
-   </div>
-  </main>
+</main>
 
 
-  <footer>
-    <form>
-      <input type="text" placeholder="Your Name">
-      <input type="text" placeholder="Your Email">
-      <button>Join Newsletter</button>
+<footer class="footer">
+  <div class="form-and-social">
+    <form class="about">
+      <input type="text" class="input" placeholder="Your Name">
+      <input type="text" class="input email" placeholder="Your Email">
+      <button class="button">Join Newsletter</button>
     </form>
-    <ul>
-      <li>
-        <a href="">
-          <img src="images/fb.png">
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <img src="images/tw.png">
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <img src="images/yt.png">
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <img src="images/ln.png">
-        </a>
-      </li>
-    </ul>
 
-  </footer>
+    <ul class="social">
+        <li class="back">
+          <a href="" class="into-back">
+            <img src="images/fb.png">
+          </a>
+        </li>
+      
+        <li class="back tw">
+          <a href="" class="into-back">
+            <img src="images/tw.png">
+          </a>
+        </li>
+
+        <li class="back yt">
+          <a href="" class="into-back">
+            <img src="images/yt.png">
+          </a>
+        </li>
+
+        <li class="back ln">
+          <a href="" class="into-back">
+            <img src="images/ln.png">
+          </a>
+        </li>
+    </ul>
+  </div>
+
+</footer>
 
 </body>
 </html>
