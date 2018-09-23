@@ -221,21 +221,6 @@
 	height: 394px;
 	position: relative;
 	transition: all 2s;
-<<<<<<< HEAD
-}
-
-.hover-text{
-    opacity: 0;
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	color: #ffffff;
-	top: 50%;
-	margin-top: -60px;
-	transition: all 2s;
-}
-
-=======
 }
 
 .hover-text{
@@ -254,7 +239,6 @@
 
 }
 
->>>>>>> task6
 .hover:hover::before{
 	content: "";
     opacity: 1;
@@ -282,15 +266,11 @@
 
 .form-and-social{
 	display: flex;
-<<<<<<< HEAD
-	margin: 0px auto;
-=======
 	width: 1180px;
 	justify-content: space-between;
 	padding: 15px 15px;
 	margin: 0px auto;
 	box-sizing: border-box;
->>>>>>> task6
 }
 
 .input{
@@ -300,15 +280,6 @@
 	font-family: ProximaNova, sans-serif;
 	font-weight: 400;
 	background-color: #ffffff;
-<<<<<<< HEAD
-	width: 201px;
-	height: 49px;
-	color: #83969f;
-	padding: 0 15px;
-}
-.email{
-	width: 350px;
-=======
 	width: 156px;
 	height: 49px;
 	color: #83969f;
@@ -316,7 +287,6 @@
 }
 .email{
 	width: 294px;
->>>>>>> task6
 }
 
 .button{
@@ -327,9 +297,6 @@
 	color: #ffffff;
 	background-color: rgb( 162, 202, 40 );
 	width: 182px;
-<<<<<<< HEAD
-	height: 51px;
-=======
 	height: 52px;
 	padding: 0 23px;
 
@@ -353,18 +320,12 @@
 		transform: scale(1);
 	
 	}
->>>>>>> task6
 }
 
 .about{
 	position: relative;
-<<<<<<< HEAD
-	left: 0px;
-	top: 40px;
-=======
 	left: 43px;
     top: 53px;
->>>>>>> task6
 }
 .social{
 	display: flex;
@@ -382,16 +343,6 @@
     margin-right: -17px;
 
 }
-<<<<<<< HEAD
-.tw{
-	background-color: rgb( 0, 174, 239 );
-}
-.yt{
-	background-color: rgb( 237, 49, 35 );
-}
-.ln{
-	background-color: rgb( 23, 26, 143 );
-=======
 
 .back:before{
 	content: "";
@@ -416,21 +367,11 @@
 	
 	}
 
->>>>>>> task6
 }
 
 .fb{
 	background: rgb( 46, 49, 146 );
 }
-<<<<<<< HEAD
-.social{
-	display: flex;
-	width: 200px;
-	justify-content: space-between;
-	position: relative;
-	left: 50px;
-	top: 40px;
-=======
 .fb:before{
 	background-image: url("../images/fb.png");
 	width: 25px;
@@ -446,7 +387,6 @@
 
 .tw{
 	background: rgb( 0, 174, 239 );
->>>>>>> task6
 }
 .tw:before{
 	background-image: url("../images/tw.png");
@@ -510,9 +450,4 @@ height: 61px;
 	background: #ffffff; 
 	height: 394px;
 	text-align: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> task6
 }
-
