@@ -55,7 +55,12 @@
 	padding: 30px 20px;
 }
 
-
+.logo{
+	margin: 13px 34px;
+}
+.nav{
+	margin: 28px 55px;
+}
 .background-image{
 	background-image: url(../images/background.jpg);
 	height: 850px;
@@ -68,20 +73,28 @@
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
-	margin: 500px 0 0 30px;
-	font-family: OpenSans, sans-serif;
-	font-weight: 400; 
+    margin: 553px 0 0 113px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.7px; 
 }
 
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
 	text-transform: uppercase;
-	margin: 5px 0 0 30px;
-	font-family: OpenSans, sans-serif;
-	font-weight: 700; 
+	margin: 9px 0 0 278px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.9px;
 }
 
+.green{
+	color: #9fc321;
+}
+.nogreen{
+	color: #ef6250;
+}
 .main-page{
 	background: #a2ca28;
 	min-width: 1000px;
@@ -90,6 +103,23 @@
 .menu-link{
 	color: #ffffff;
 	text-decoration: none;
+}
+.menu-item:hover{
+	animation: linkAnimation 2s;
+}
+
+@keyframes linkAnimation{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.2);
+	}
+	
+	100%{
+		transform: scale(1);
+	}
+
 }
 
 .info{
@@ -112,7 +142,7 @@
 .subinfo-text {
 	color: #ffffff;
 	font-size: 13px;
-	line-height: 1;
+    line-height: 1.9;
 	margin: 0 0 20px 0;
 	font-family: ProximaNova, sans-serif;
 	font-weight: 400;
@@ -123,12 +153,13 @@
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	padding-bottom: 25px;
 }
 
 .subinfo-li {
-	width: 270px;
-	height: 280px;
-	margin: 15px 30px 15px 0px;
+	width: 255px;
+	height: 240px;
+	margin: 61px 28px 70px 0px;
 	position: relative;
 }
 
@@ -174,6 +205,7 @@
 	margin: 0px 50px;
 	font-family: OpenSans, sans-serif;
 	font-weight: 400;
+	width: 305px;
 }
 
 .section-link{
@@ -189,6 +221,7 @@
 	height: 394px;
 	position: relative;
 	transition: all 2s;
+<<<<<<< HEAD
 }
 
 .hover-text{
@@ -202,6 +235,26 @@
 	transition: all 2s;
 }
 
+=======
+}
+
+.hover-text{
+    opacity: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	top: 50%;
+	margin-top: -60px;
+	transition: all 2s;
+}
+.two{
+	margin-top: -93px;
+	margin-left: -24px;
+
+}
+
+>>>>>>> task6
 .hover:hover::before{
 	content: "";
     opacity: 1;
@@ -222,14 +275,22 @@
 }
 .footer{
 	display: flex;
-	height: 130px;
+	height: 160px;
 	margin: 0 auto;
 	background-color: #0d1119;
 }
 
 .form-and-social{
 	display: flex;
+<<<<<<< HEAD
 	margin: 0px auto;
+=======
+	width: 1180px;
+	justify-content: space-between;
+	padding: 15px 15px;
+	margin: 0px auto;
+	box-sizing: border-box;
+>>>>>>> task6
 }
 
 .input{
@@ -239,6 +300,7 @@
 	font-family: ProximaNova, sans-serif;
 	font-weight: 400;
 	background-color: #ffffff;
+<<<<<<< HEAD
 	width: 201px;
 	height: 49px;
 	color: #83969f;
@@ -246,6 +308,15 @@
 }
 .email{
 	width: 350px;
+=======
+	width: 156px;
+	height: 49px;
+	color: #83969f;
+	padding: 0 23px;
+}
+.email{
+	width: 294px;
+>>>>>>> task6
 }
 
 .button{
@@ -256,19 +327,62 @@
 	color: #ffffff;
 	background-color: rgb( 162, 202, 40 );
 	width: 182px;
+<<<<<<< HEAD
 	height: 51px;
+=======
+	height: 52px;
+	padding: 0 23px;
+
 }
+.button:hover{
+	animation: buttonAnimation 3s infinite alternate;
+    box-shadow: 0 -200px 100px -120px #a5ca25 inset;
+
+}
+
+@keyframes buttonAnimation {
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.1);
+		background: skyblue;
+        box-shadow: 0 -200px 100px -100px yellowgreen inset;
+	}
+	100%{
+		transform: scale(1);
+	
+	}
+>>>>>>> task6
+}
+
 .about{
 	position: relative;
+<<<<<<< HEAD
 	left: 0px;
 	top: 40px;
+=======
+	left: 43px;
+    top: 53px;
+>>>>>>> task6
 }
+.social{
+	display: flex;
+	width: 230px;
+    justify-content: space-between;
+    position: relative;
+    top: 48px;
+}
+
 .back{
 	border-radius: 50%;
-	background-color: rgb( 46, 49, 146 );
-	width: 45px;
-	height: 45px;
+	width: 50px;
+	height: 50px;
+	position: relative;
+    margin-right: -17px;
+
 }
+<<<<<<< HEAD
 .tw{
 	background-color: rgb( 0, 174, 239 );
 }
@@ -277,12 +391,38 @@
 }
 .ln{
 	background-color: rgb( 23, 26, 143 );
+=======
+
+.back:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
 }
-.into-back{
-	position: relative;
-	top: 8px;
-	left: 13px;
+.back:hover{
+	animation: backAnimation 0.6s;
 }
+
+@keyframes backAnimation {
+	0%{
+		transform: translate(-20%);
+	}
+	50%{
+		transform: translate(20%);
+	}
+	100%{
+		transform: translate(-20%);
+	
+	}
+
+>>>>>>> task6
+}
+
+.fb{
+	background: rgb( 46, 49, 146 );
+}
+<<<<<<< HEAD
 .social{
 	display: flex;
 	width: 200px;
@@ -290,7 +430,66 @@
 	position: relative;
 	left: 50px;
 	top: 40px;
+=======
+.fb:before{
+	background-image: url("../images/fb.png");
+	width: 25px;
+	height: 25px;
+	background-size: 11px 19px;
+	background-repeat: no-repeat;
+	top: 50%;
+    margin-top: -11px;
+    left: 50%;
+    margin-left: -5px;
+} 
+
+
+.tw{
+	background: rgb( 0, 174, 239 );
+>>>>>>> task6
 }
+.tw:before{
+	background-image: url("../images/tw.png");
+	width: 25px;
+	height: 25px;
+	background-size: 19px 16px;
+	background-repeat: no-repeat;
+	top: 50%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -8px;
+} 
+
+.yt{
+	background: rgb( 237, 49, 35 );
+}
+.yt:before{
+	background-image: url("../images/yt.png");
+	width: 25px;
+	height: 25px;
+	background-size: 21px 16px;
+	background-repeat: no-repeat;
+	top: 50%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -11px;
+} 
+
+.ln{
+	background: rgb( 23, 26, 143 );
+}
+.ln:before{
+	background-image: url("../images/ln.png");
+	width: 25px;
+	height: 25px;
+	background-size: 19px 19px;
+	background-repeat: no-repeat;
+	top: 50%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -11px;
+} 
+
 
 .icon5 {
 	width: 20px;
@@ -298,23 +497,22 @@
 	margin: 13px 167px;
 }
 
-.icon1{
-	margin: 8px 0px;
+.for-icon{
+width: 60px;
+height: 60px;
 }
-.icon2{
-	margin: 6px 0px;
-}
-.icon3{
-	margin: 10px 0px;
-}
-.icon4{
-	margin: 5px 0px;
+
+.connect{
+height: 61px;
 }
 
 .text-section{
 	background: #ffffff; 
 	height: 394px;
 	text-align: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> task6
 }
 
