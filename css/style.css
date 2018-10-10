@@ -4,7 +4,7 @@
 	font-weight: 400;
 }
 @font-face{
-	src: url(../fonts/ProximaNova-Reg.ttf);
+	src: url(../fonts/ProximaNova-Reg.otf);
 	font-family: ProximaNova;
 	font-weight: 400;
 }
@@ -24,7 +24,7 @@
 	font-weight: 100;
 }
 @font-face{
-	src: url(../fonts/Montserrat-Regular.ttf);
+	src: url(../fonts/Montserrat-Regular.otf);
 	font-family: Montserrat;
 	font-weight: 400;
 }
@@ -212,6 +212,7 @@
 	color: #a2ca28;
 	font-family: OpenSans, sans-serif;
 	font-weight: 400;
+	margin: 15px 0;
 }
 
 .hover{
@@ -288,6 +289,15 @@
 .email{
 	width: 294px;
 }
+.message{
+	font-weight: 600;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	background: green;
+	padding: 10px 200px;
+	display: none;
+}
 
 .button{
     font-family: Proxima Nova, sans-serif;
@@ -304,7 +314,6 @@
 .button:hover{
 	animation: buttonAnimation 3s infinite alternate;
     box-shadow: 0 -200px 100px -120px #a5ca25 inset;
-
 }
 
 @keyframes buttonAnimation {
@@ -318,21 +327,17 @@
 	}
 	100%{
 		transform: scale(1);
-	
 	}
 }
 
 .about{
-	position: relative;
-	left: 43px;
-    top: 53px;
+	padding: 53px 0px 0px 44px;
 }
 .social{
 	display: flex;
 	width: 230px;
     justify-content: space-between;
-    position: relative;
-    top: 48px;
+    padding: 51px 0px 0px 44px;
 }
 
 .back{
