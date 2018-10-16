@@ -293,7 +293,7 @@
 	font-weight: 600;
 	font-family: Proxima Nova, sans-serif;
 	font-size: 15px;
-	color: #fff;
+	color: #0d1119;
 	background: #a2ca28;
 	padding: 10px 200px;
 	display: none;
@@ -314,7 +314,7 @@
 	padding: 0 23px;
 
 }
-.button:hover{
+.button.active:hover{
 	animation: buttonAnimation 3s infinite alternate;
     box-shadow: 0 -200px 100px -120px #a5ca25 inset;
 }
