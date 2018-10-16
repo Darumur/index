@@ -294,9 +294,12 @@
 	font-family: Proxima Nova, sans-serif;
 	font-size: 15px;
 	color: #fff;
-	background: green;
+	background: #a2ca28;
 	padding: 10px 200px;
 	display: none;
+}
+.mes_text{
+	padding: 9px 9px;
 }
 
 .button{
