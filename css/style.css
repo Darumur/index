@@ -212,7 +212,11 @@
 	color: #a2ca28;
 	font-family: OpenSans, sans-serif;
 	font-weight: 400;
+<<<<<<< HEAD
 	margin: 0 0 0 15px;
+=======
+	margin: 15px 0;
+>>>>>>> task9
 }
 
 .hover{
@@ -289,6 +293,18 @@
 .email{
 	width: 294px;
 }
+.message{
+	font-weight: 600;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 15px;
+	color: #0d1119;
+	background: #a2ca28;
+	padding: 10px 200px;
+	display: none;
+}
+.mes_text{
+	padding: 9px 9px;
+}
 
 .button{
     font-family: Proxima Nova, sans-serif;
@@ -302,10 +318,9 @@
 	padding: 0 23px;
 
 }
-.button:hover{
+.button.active:hover{
 	animation: buttonAnimation 3s infinite alternate;
     box-shadow: 0 -200px 100px -120px #a5ca25 inset;
-
 }
 
 @keyframes buttonAnimation {
@@ -319,7 +334,6 @@
 	}
 	100%{
 		transform: scale(1);
-	
 	}
 }
 
